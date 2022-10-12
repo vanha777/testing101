@@ -13,9 +13,12 @@ describe("Lock", function () {
 
     const lockedAmount = ONE_GWEI;
     const unlockTime = (await time.latest()) + ONE_YEAR_IN_SECS;
+<<<<<<< HEAD
+=======
     const durianIcescream ;
     const thisIsNewFetures;
   
+>>>>>>> main
 
     // Contracts are deployed using the first signer/account by default
     const [owner, otherAccount] = await ethers.getSigners();
