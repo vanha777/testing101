@@ -14,6 +14,7 @@ describe("Lock", function () {
     const lockedAmount = ONE_GWEI;
     const unlockTime = (await time.latest()) + ONE_YEAR_IN_SECS;
     const durianIcescream ;
+    const thisIsNewFetures;
   
 
     // Contracts are deployed using the first signer/account by default
